@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btn_creautenti"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Funzioni Disponibili"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_creautenti"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_above="@id/btn_eliminautenti"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/btn_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Crea nuovi utenti "
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/btn_eliminautenti"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/btn_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Elimina Utenti"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_eliminautenti"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_customred"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Log Out"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
