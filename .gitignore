@@ -24,6 +24,7 @@ gradle/
 *.gradle
 gradlew.bat
 gradlew
+gradle.properties
 
 # Local configuration file (sdk path, etc)
 local.properties
